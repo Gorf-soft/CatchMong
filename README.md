@@ -5,12 +5,12 @@
   **세상에서 가장 쉬운 비디오 다운로더**
 
   <a href="https://github.com/Gorf-soft/CatchMong/releases/latest">
-    <img src="https://img.shields.io/github/downloads/Gorf-soft/CatchMong/total?style=for-the-badge&color=blue&label=누적%20다운로드" alt="총 다운로드 수">
+    <img src="https://img.shields.io/github/downloads/Gorf-soft/CatchMong/total.svg?style=for-the-badge&color=blue&label=%EB%88%84%EC%A0%81%20%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C" alt="총 다운로드 수">
   </a>
   <a href="https://github.com/Gorf-soft/CatchMong/releases/latest">
-    <img src="https://img.shields.io/github/v/release/Gorf-soft/CatchMong?style=for-the-badge&color=success&label=최신%20버전" alt="최신 버전">
+    <img src="https://img.shields.io/github/v/release/Gorf-soft/CatchMong.svg?style=for-the-badge&color=success&label=%EC%B5%9C%EC%8B%A0%20%EB%B2%84%EC%A0%84" alt="최신 버전">
   </a>
-  <img src="https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 전용">
+  <img src="https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D6.svg?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 전용">
 
   <br><br>
   <img src="hero-catchmong-main.png" alt="캐치몽 메인 화면" width="800">
