@@ -49,6 +49,11 @@
   <img src="step-3-qr-transfer.png" alt="QR 전송 화면" width="400">
   <p><i>▲ 캐치한 파일을 폰으로 바로 넘기는 혁신적인 QR 전송 기능</i></p>
 </div>
+<br>
+<div align="center">
+  <img src="step-3-qr-transfer.png" alt="QR 전송 화면" width="400">
+  <p><i>▲ 캐치한 파일을 폰으로 바로 넘기는 혁신적인 QR 전송 기능</i></p>
+</div>
 
 ---
 
