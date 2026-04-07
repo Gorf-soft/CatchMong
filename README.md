@@ -55,7 +55,7 @@
 
   <br><br>
 
-  <img src="step-4-notification.jpg" alt="채널 알림 화면" width="600" style="border-radius: 12px; border: 1px solid #eaecef;">
+  <img src="step-4-notification.png" alt="채널 알림 화면" width="600" style="border-radius: 12px; border: 1px solid #eaecef;">
   <p><i>▲ 즐겨보는 채널을 등록하고 새 영상 소식을 채팅으로 받습니다.</i></p>
 </div>
 <br>
