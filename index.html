@@ -5,7 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>캐치몽 - 세상에서 가장 쉬운 비디오 다운로더</title>
   <meta name="description" content="유튜브, 인스타그램, 틱톡 영상을 쉽게 받고, MP3와 자막까지 한 번에 처리하는 세상에서 가장 쉬운 비디오 다운로더 캐치몽" />
-  
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://catchmong.co.kr/" />
+  <meta property="og:title" content="캐치몽 - 세상에서 가장 쉬운 비디오 다운로더" />
+  <meta property="og:description" content="유튜브, 인스타그램, 틱톡 영상을 쉽게 받고, MP3와 자막까지 한 번에 처리하는 세상에서 가장 쉬운 비디오 다운로더 캐치몽" />
+  <meta property="og:image" content="https://catchmong.co.kr/og-image.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="캐치몽 - 세상에서 가장 쉬운 비디오 다운로더" />
+  <meta name="twitter:description" content="유튜브, 인스타그램, 틱톡 영상을 쉽게 받고, MP3와 자막까지 한 번에 처리하는 세상에서 가장 쉬운 비디오 다운로더 캐치몽" />
+  <meta name="twitter:image" content="https://catchmong.co.kr/og-image.jpg" />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   
   <script src="https://cdn.tailwindcss.com"></script>
@@ -48,7 +57,6 @@
         radial-gradient(circle at 85% 10%, rgba(99,102,241,0.10), transparent 18%);
     }
 
-    /* 사령관님 요청: 다크 버튼 스타일 (설치하기) */
     .btn-dark-install {
       background-color: #1a1a1a;
       color: #ffffff;
@@ -59,6 +67,7 @@
       transform: translateY(-2px);
     }
   </style>
+  
 </head>
 <body class="antialiased selection:bg-blue-600 selection:text-white">
 
@@ -71,7 +80,7 @@
       <div class="hidden items-center gap-7 md:flex">
         <a href="#features" class="text-sm font-bold text-gray-600 hover:text-gray-900">주요 기능</a>
         <a href="#steps" class="text-sm font-bold text-gray-600 hover:text-gray-900">사용 방법</a>
-        <a href="#download" class="rounded-full bg-blue-600 px-7 py-3 text-sm font-black text-white transition hover:bg-blue-700">무료 다운로드</a>
+        <a href="#install-bottom" class="rounded-full bg-blue-600 px-7 py-3 text-sm font-black text-white transition hover:bg-blue-700">무료 다운로드</a>
       </div>
     </div>
   </nav>
@@ -79,26 +88,26 @@
   <section class="relative overflow-hidden pt-32 pb-20 md:pt-40">
     <div class="hero-glow"></div>
     <div class="relative mx-auto max-w-[92rem] px-5 sm:px-6 lg:px-8">
-      <div class="mx-auto max-w-4xl text-center">
+      <div class="mx-auto w-full text-center">
         
-        <h1 class="opera-title text-[3.8rem] sm:text-[5.4rem] md:text-[7rem] lg:text-[8.6rem] text-gray-900">
+        <h1 class="opera-title text-[3.2rem] sm:text-[4.8rem] md:text-[6.5rem] lg:text-[7.8rem] text-gray-900 whitespace-nowrap">
           세상에서 가장 쉬운<br>
           <span class="text-blue-600">비디오 다운로더</span>
         </h1>
 
-        <p class="opera-subtitle mx-auto mt-8 max-w-[50rem] text-[1.15rem] font-medium text-gray-500 md:text-[1.5rem]">
+        <p class="opera-subtitle mx-auto mt-8 max-w-[50rem] text-[1.15rem] font-medium text-gray-500 md:text-[1.5rem] whitespace-normal">
           소장하고 싶은 4K 고화질 영상, 운전할 때 들을 차량용 MP3, 어학용 자막까지.<br class="hidden md:block" />
           캐치몽 하나면 당신이 겪던 모든 다운로드의 불편함이 완벽하게 해결됩니다.
         </p>
 
-        <div class="mt-12 flex justify-center">
-          <a id="download" href="catchmong_setup.exe" class="btn-dark-install inline-flex items-center justify-center rounded-2xl px-14 py-5 text-xl font-black transition md:text-[1.6rem] gap-3">
-            설치하기 
-            <svg class="w-6 h-6 md:w-7 md:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+        <div class="mt-14 flex justify-center">
+          <a href="https://github.com/Gorf-soft/CatchMong/releases/latest/download/CatchMong_Installer.exe" class="inline-flex items-center justify-center rounded-full bg-blue-600 px-20 py-8 text-2xl font-black text-white shadow-[0_20px_50px_rgba(37,99,235,0.4)] transition-all transform duration-300 hover:scale-105 hover:bg-blue-700 md:text-[2.2rem] gap-4">
+            캐치몽 무료 다운로드
+            <svg class="w-8 h-8 md:w-9 md:h-9 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
           </a>
         </div>
 
-        <p class="mt-6 text-sm font-bold text-gray-400 md:text-base tracking-wide">✅ 100% 무료 · ✅ 회원가입 없음 · ✅ Windows 10/11 전용</p>
+        <p class="mt-12 text-sm font-bold text-gray-500 md:text-base tracking-wide relative z-10">✅ 100% 무료 · ✅ 회원가입 없음 · ✅ Windows 10/11 전용</p>
       </div>
 
       <div class="mx-auto mt-20 max-w-[86rem]">
@@ -132,7 +141,7 @@
                 <div style="display:flex; align-items:center; gap:10px; padding:14px 16px; border-radius:12px; border:1px solid #dbe2ec; background:#fff; font-weight:700; color:#374151;">
                   🔗 https://www.youtube.com/watch?v=...
                 </div>
-                <div style="margin-top:14px; display:inline-block; padding:8px 14px; border-radius:999px; background:#ecfdf3; color:#027a48; font-weight:800; font-size:13px;">
+                <div style="margin-top:14px; display:inline-block; padding:8px 14px; border-radius:9999px; background:#ecfdf3; color:#027a48; font-weight:800; font-size:13px;">
                   ✅ 링크 복사 완료
                 </div>
                 <div style="margin-top:16px; padding:16px; border-radius:14px; background:#eff6ff; border:1px solid #dbeafe; font-weight:700; line-height:1.6; color:#1e40af;">
@@ -156,7 +165,7 @@
             <p class="mt-6 text-xl leading-9 text-gray-500">복잡한 옵션 없이 필요한 방식만 누르면 바로 다운로드가 시작됩니다. 채널과 재생목록도 한 번에 캐치할 수 있습니다.</p>
           </div>
           <div class="order-1 md:order-2 opera-card opera-shadow border border-gray-100 p-8">
-            <img src="step-2-download-card.png" alt="캐치몽 다운로드 카드 화면" class="w-full rounded-[1.5rem] border border-gray-200 bg-white" />
+            <img src="step-2-download-card.jpg" alt="캐치몽 다운로드 카드 화면" class="w-full rounded-[1.5rem] border border-gray-200 bg-white" />
           </div>
         </div>
 
@@ -170,6 +179,18 @@
             <p class="mt-6 text-xl leading-9 text-gray-500">PC에 저장한 파일을 QR 코드로 바로 띄워 스마트폰으로 쉽게 옮길 수 있습니다. 케이블이나 복잡한 공유 설정이 필요 없습니다.</p>
           </div>
         </div>
+
+        <div class="grid items-center gap-12 md:grid-cols-2 lg:gap-24">
+          <div class="order-2 md:order-1">
+            <div class="text-2xl font-black text-blue-600">STEP 4</div>
+            <h3 class="opera-title mt-5 text-4xl md:text-5xl text-gray-900">새 영상, 놓치지 말고 캐치하세요</h3>
+            <p class="mt-6 text-xl leading-9 text-gray-500">즐겨보는 유튜브 채널을 한 번만 등록해두세요. 새로운 영상이 올라오면 몽이가 채팅으로 가장 먼저 알려드립니다. 이제 유튜브를 매번 검색할 필요 없이 즉시 캐치하세요!</p>
+          </div>
+          <div class="order-1 md:order-2 opera-card opera-shadow border border-gray-100 p-8">
+            <img src="step-4-notification.png" alt="캐치몽 새 영상 알림 화면" class="w-full rounded-[1.5rem] border border-gray-200 bg-white" />
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -211,7 +232,7 @@
       
       <div class="mb-16 text-center">
         <div class="text-blue-600 font-black text-lg mb-4">기능 비교</div>
-        <h2 class="opera-title text-4xl md:text-6xl text-gray-900">잘했어! 캐치몽</h2>
+        <h2 class="opera-title text-4xl md:text-6xl text-gray-900">비교할수록 압도적인 캐치몽의 차이</h2>
       </div>
 
       <div class="overflow-hidden rounded-[2rem] border border-gray-200 bg-white opera-shadow">
@@ -260,7 +281,7 @@
   </section>
 
   <section class="px-6 pb-24 pt-6 bg-white">
-    <div class="mx-auto max-w-[82rem] rounded-[2.5rem] bg-blue-600 px-8 py-16 text-center text-white opera-shadow md:px-12 relative overflow-hidden">
+    <div id="install-bottom" class="mx-auto max-w-[82rem] rounded-[2.5rem] bg-blue-600 px-8 py-16 text-center text-white opera-shadow md:px-12 relative overflow-hidden">
       <div class="text-lg font-black text-blue-200 tracking-widest mb-4">더 이상 복잡하게 다운로드하지 마세요</div>
       <h2 class="opera-title mt-4 text-4xl md:text-7xl">지금 바로 시작하세요</h2>
       <p class="mx-auto mt-8 max-w-3xl text-xl md:text-2xl leading-9 text-blue-100">
@@ -269,7 +290,7 @@
       </p>
       
       <div class="mt-12 flex justify-center">
-        <a href="catchmong_setup.exe" class="btn-dark-install inline-flex items-center justify-center rounded-2xl px-16 py-6 text-xl font-black transition md:text-[1.6rem] gap-3">
+        <a href="https://github.com/Gorf-soft/CatchMong/releases/latest/download/CatchMong_Installer.exe" class="btn-dark-install inline-flex items-center justify-center rounded-2xl px-16 py-6 text-xl font-black transition transform hover:scale-105 shadow-2xl md:text-2xl gap-3">
           설치하기 
           <svg class="w-6 h-6 md:w-7 md:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
         </a>
@@ -279,10 +300,24 @@
     </div>
   </section>
 
-  <footer class="border-t border-gray-100 bg-white py-12 text-center text-sm font-semibold text-gray-400">
-    <div class="mx-auto max-w-6xl px-6">
-      <p>본 프로그램은 개인적인 용도로만 사용해야 하며, 저작권이 있는 콘텐츠의 무단 배포를 금지합니다.</p>
-      <p class="mt-2">© 2026 CatchMong. All rights reserved.</p>
+  <footer class="border-t border-gray-100 bg-white py-12 text-sm font-semibold text-gray-400">
+    <div class="mx-auto max-w-6xl px-6 lg:px-8 flex flex-col items-center gap-6">
+      
+      <div class="text-center space-y-2 leading-relaxed">
+        <p class="text-gray-900 font-bold">청개구리소프트</p>
+        <p>사업자등록번호: 513-15-62961 | 대표자: 한성욱 </p>
+        <p>소재지: 서울시 강동구 고덕로 266 고덕역대명벨리온 1432호</p>
+      </div>
+
+      <div class="flex gap-8">
+        <a href="terms.txt" target="_blank" class="hover:text-gray-900">이용약관</a>
+        <a href="privacy.txt" target="_blank" class="hover:text-gray-900">개인정보처리방침</a>
+      </div>
+
+      <div class="text-center">
+        <p>본 프로그램은 개인적인 용도로만 사용해야 하며, 저작권이 있는 콘텐츠의 무단 배포를 금지합니다.</p>
+        <p class="mt-2 text-gray-300">© 2010~2026 Hanmacro. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 </body>
