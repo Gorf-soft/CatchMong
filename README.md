@@ -46,14 +46,29 @@
 
 <br>
 <div align="center">
-  <img src="step-3-qr-transfer.png" alt="QR 전송 화면" width="400">
-  <p><i>▲ 캐치한 파일을 폰으로 바로 넘기는 혁신적인 QR 전송 기능</i></p>
+  <div style="display: flex; justify-content: center; align-items: flex-start; gap: 24px; flex-wrap: wrap; margin: 32px 0;">
+
+    <div style="flex: 1; min-width: 250px; text-align: center;">
+      <h4 style="margin-bottom: 8px;"> · 형식 선택</h4>
+      <img src="step-2-download-card.jpg" alt=": 형식 선택" width="250" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 1px solid #eaecef;">
+      <p style="color: #6a737d; font-size: 14px; margin-top: 12px;">원하는 영상·음원·자막 형식을<br>간편하게 캐치합니다.</p>
+    </div>
+
+    <div style="flex: 1; min-width: 250px; text-align: center;">
+      <h4 style="margin-bottom: 8px;"> · QR 스마트폰 전송</h4>
+      <img src="step-3-qr-transfer.png" alt=": QR 전송" width="250" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 1px solid #eaecef;">
+      <p style="color: #6a737d; font-size: 14px; margin-top: 12px;">케이블 없이 QR 코드 스캔으로<br>폰으로 즉시 전송합니다.</p>
+    </div>
+
+    <div style="flex: 1; min-width: 250px; text-align: center;">
+      <h4 style="margin-bottom: 8px;"> · 채널 새 영상 알림</h4>
+      <img src="step-4-notification.jpg" alt=": 채널 알림" width="250" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border: 1px solid #eaecef;">
+      <p style="color: #6a737d; font-size: 14px; margin-top: 12px;">즐겨보는 채널을 등록하고<br>새 영상 소식을 채팅으로 받습니다.</p>
+    </div>
+
+  </div>
 </div>
-<br>
-<div align="center">
-  <img src="step-3-qr-transfer.png" alt="QR 전송 화면" width="400">
-  <p><i>▲ 캐치한 파일을 폰으로 바로 넘기는 혁신적인 QR 전송 기능</i></p>
-</div>
+
 
 ---
 
