@@ -34,7 +34,6 @@
 * **📦 재생목록 통째로 캐치:** 영상 하나씩 받을 필요 없이, 채널이나 재생목록 주소 하나면 100개든 1,000개든 일괄 저장.
 * **🔔 업계 최초! 유튜브 채널 알림:** 즐겨보는 채널을 등록해두면 새 영상이 올라올 때마다 몽이가 채팅으로 알려줍니다.
 * **📱 QR 코드로 스마트폰 즉시 전송:** PC에 받은 트로트 MP3, 케이블 연결 없이 QR코드만 찍어서 폰으로 쏙!
-* **🔄 무설정 자동 업데이트:** 깃허브와 연동되어 백그라운드에서 조용히 최신 버전으로 진화합니다.
 
 ---
 
@@ -46,30 +45,20 @@
 
 <br>
 <div align="center">
-  <table>
-    <tr>
-      <th align="center">STEP 2 · 형식 선택</th>
-      <th align="center">STEP 3 · QR 스마트폰 전송</th>
-      <th align="center">STEP 4 · 채널 새 영상 알림</th>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="step-2-download-card.png" width="250" alt="형식 선택">
-      </td>
-      <td align="center">
-        <img src="step-3-qr-transfer.png" width="250" alt="QR 전송">
-      </td>
-      <td align="center">
-        <img src="step-4-notification.jpg" width="250" alt="채널 알림">
-      </td>
-    </tr>
-    <tr>
-      <td align="center"><sup>원하는 영상·음원·자막 형식을<br>간편하게 캐치합니다.</sup></td>
-      <td align="center"><sup>케이블 없이 QR 코드 스캔으로<br>폰으로 즉시 전송합니다.</sup></td>
-      <td align="center"><sup>즐겨보는 채널을 등록하고<br>새 영상 소식을 채팅으로 받습니다.</sup></td>
-    </tr>
-  </table>
+  <img src="step-2-download-card.png" alt="형식 선택 화면" width="600" style="border-radius: 12px; border: 1px solid #eaecef;">
+  <p><i>▲ 원하는 영상·음원·자막 형식을 간편하게 캐치합니다.</i></p>
+
+  <br><br>
+
+  <img src="step-3-qr-transfer.png" alt="QR 전송 화면" width="600" style="border-radius: 12px; border: 1px solid #eaecef;">
+  <p><i>▲ 케이블 없이 QR 코드 스캔으로 폰으로 즉시 전송합니다.</i></p>
+
+  <br><br>
+
+  <img src="step-4-notification.jpg" alt="채널 알림 화면" width="600" style="border-radius: 12px; border: 1px solid #eaecef;">
+  <p><i>▲ 즐겨보는 채널을 등록하고 새 영상 소식을 채팅으로 받습니다.</i></p>
 </div>
+<br>
 <br>
 
 
